@@ -169,6 +169,33 @@
             box-shadow: 0 1px 2px rgba(0,0,0,0.05);
         }
 
+        /* SOP Section */
+        #sop {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            min-height: 100vh;
+            padding-top: 5rem;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 0.75rem 1.75rem;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 600;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .btn:hover {
+            background-color: #4338ca;
+            transform: translateY(-2px);
+        }
+        
         /* Projects Section */
         .projects-grid {
             display: grid;
